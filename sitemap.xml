@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- ポータルサイトのトップページ -->
+  <url>
+    <loc>https://pglucy08-collab.github.io/</loc>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- しりとりバーシのゲームページ -->
+  <url>
+    <loc>https://pglucy08-collab.github.io/shiritoreversi.github.io/</loc>
+    <priority>0.8</priority>
+  </url>
+</urlset>
