@@ -1,0 +1,65 @@
+body {
+  font-family: "Rounded Mplus 1c", sans-serif;
+  margin: 0;
+  background: #fffaf5;
+  text-align: center;
+  color: #333;
+}
+
+header {
+  background: linear-gradient(90deg, #ffb6c1, #ffe066, #87cefa);
+  padding: 30px;
+}
+header h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.games {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 30px;
+}
+
+.game-card {
+  background: white;
+  border-radius: 20px;
+  width: 280px;
+  padding: 15px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+}
+.game-card:hover {
+  transform: translateY(-5px);
+}
+.game-card img {
+  width: 100%;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+.game-card h2 {
+  font-size: 1.3rem;
+  margin: 10px 0 5px;
+}
+
+.btn {
+  display: inline-block;
+  background: #ff7b54;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+footer {
+  background: #fafafa;
+  padding: 15px;
+  font-size: 0.9rem;
+}
